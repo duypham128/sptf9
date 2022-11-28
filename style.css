@@ -1,0 +1,108 @@
+#logo {
+    background-color: black;
+    border-radius: 80px;
+    width:  200px;
+    padding: 0;
+    border: none;
+   
+}
+#logo:hover {
+    background-color: #4cd137;
+}
+#linklogo{
+    padding-top: 10px;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cabin ;
+    box-sizing: border-box;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #bdc3c7;
+    padding-top: 50px;
+    align-items: center;
+    height: 400px;
+}
+#taikhoan {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.form-g {
+    padding: 15px;
+    position: relative;
+   
+}
+.form-g input:focus + #tk, .form-g input:valid + #tk{
+    top: 0px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.form-g input:focus {
+    border: 2px solid #4cd137;
+}
+.form-g input:focus + #pw, .form-g input:valid + #pw{
+    top: 12px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+#btnLogin:hover, #dkbtn:hover {
+    color: white;
+    background-color: #4cd137;
+}
+#btnLogin {
+    margin-left: 15px;
+    text-align: center;   
+}
+input {
+    height: 50px;
+    width: 300px;
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
+    font-size: inherit;
+    outline: none;
+    padding: 10px;
+    color: black;
+}
+label {
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    pointer-events: none;
+    color:#bdc3c7;
+    transition: all 0.3s ease-in-out;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chuatk {
+    width: 400px;
+    border-top: 1px solid #bdc3c7;
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
